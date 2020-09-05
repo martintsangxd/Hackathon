@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bottom_nav_map"
+        android:title="Map"
+        android:icon="@drawable/map_icon"
+        app:cnb_textColor="#000"
+        app:cnb_iconColor="#000"
+        app:cnb_backgroundColor="@color/colorPrimary"
+        />
+
+    <item
+        android:id="@+id/bottom_nav_account"
+        android:title="Account"
+        app:cnb_textColor="#000"
+        app:cnb_iconColor="#000"
+        android:icon="@drawable/account_icon"
+        app:cnb_backgroundColor="@color/colorPrimary"
+        />
+</menu>
